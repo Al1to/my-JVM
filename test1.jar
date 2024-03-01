@@ -1,0 +1,19 @@
+.class .public Main
+.extends Object
+
+.method .public <init>
+
+.method .public test (I, [String;)V
+A:
+    ldc 7
+    istore a
+B:
+    ldc 12
+    istore b
+C:
+    iload a
+    iload b
+    iadd
+    istore c
+D:
+.end
